@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil con CSS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #2d3748;
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #0969da;
+            text-align: center;
+        }
+        h2 {
+            color: #2b3137;
+            border-bottom: 2px solid #0969da;
+            padding-bottom: 6px;
+        }
+        ul {
+            background-color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 8px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0969da;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Mi Sitio Web con Estilo CSS! 🎨</h1>
+    <h2>Sobre mi proyecto</h2>
+    <p>En esta clase aprendí a separar la estructura (HTML) del diseño visual (CSS).</p>
+    
+    <h2>Mis Intereses</h2>
+    <ul>
+        <li>💻 Diseño y Desarrollo Web</li>
+        <li>🎨 Estilos CSS y Paletas de Colores</li>
+        <li>🚀 Publicación en GitHub Pages</li>
+    </ul>
+
+    <h2>Enlaces</h2>
+    <p>Visitá la <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">documentación oficial de CSS en MDN</a>.</p>
+</body>
+</html>
